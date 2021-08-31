@@ -1,0 +1,52 @@
+@media (max-width: 900px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    header , .services-type{
+        padding-bottom: 0px !important;
+    }
+    header::before , 
+    header .image-content{
+        height: 400px;
+    }
+    .hamburger{
+        display: block !important;
+    }
+    .marquee-tag .new-line span{
+        font-size: 13px;
+    }
+    .about-us .image-content{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+    .navbar-nav{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 80px;
+        background-color: #fff;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center;
+        text-align: center;
+        transition: all .5s linear;
+        right: -100%;
+    }
+    .navbar-nav li {
+        margin: 20px 0px !important;
+        width: 100%;
+    }
+    .acitve-nav{
+        right: 0px;
+    }
+}
